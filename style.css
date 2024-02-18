@@ -1,0 +1,81 @@
+
+
+
+/* navbar start*/
+body{
+    font-family: 'Cairo', sans-serif;
+    
+}
+.container{
+    border-bottom: 2px solid black;
+    
+}
+.nav{
+    position: relative;
+display: inline-block;
+}
+
+.chef-logo img{
+    
+    position: absolute;
+height: 75px;
+right: 0px;
+top: 0px;
+}
+.burger-menu{
+    height: 50px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    padding: 0px 10px 0px 10px;
+    
+}
+ul li{
+    list-style: none;
+    background-color: #ddd;
+    padding: 10px 16px;
+    width: 100px;
+    text-align: center;
+}
+ul{
+    position: absolute;
+    display: none;
+    min-width: 150px;
+    z-index: 1;
+    margin-top: 0px;
+    padding-left: 0px;
+    left: 0px;
+}
+
+
+li:hover{
+    background-color: tomato;
+
+
+}
+.nav:hover ul{
+    display: block;
+}
+/* navbar end*/
+/*main section start*/
+.img-main2{
+    height: 200px;
+    border-radius: 50%;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header{
+    color: tomato;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
