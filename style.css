@@ -79,3 +79,14 @@ main{
 h1{
     text-align: center;
 }
+.second-sec{
+position: relative;
+}
+.second-sec-para{
+    position: absolute;
+    top: 90%;
+    left: 37%;
+    color:orangered;
+    font:25px bold;
+    font-family:'Cairo', sans-serif;
+}
