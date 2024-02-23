@@ -4,6 +4,7 @@
 /* navbar start*/
 body{
     font-family: 'Cairo', sans-serif;
+    background-color:white;
     
 }
 .container{
@@ -64,6 +65,7 @@ li:hover{
 .img-main2{
     height: 200px;
     border-radius: 50%;
+    border: 3px solid rgba(255, 99, 71, 0.664);
 
 }
 main{
@@ -88,5 +90,9 @@ position: relative;
     left: 37%;
     color:orangered;
     font:25px bold;
-    font-family:'Cairo', sans-serif;
+}
+/*boxes section-start*/
+.boxes{
+display: flex;
+align-items: center;
 }
