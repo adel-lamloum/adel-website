@@ -94,5 +94,22 @@ position: relative;
 /*boxes section-start*/
 .boxes{
 display: flex;
-align-items: center;
+gap: 2rem;
+}
+.box{
+    border-radius: 5px solid tomato;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+h3{
+    text-align: center;
+}
+.box p {
+    text-align: center;
+}
+.box-img{
+   width: 300px;
+   align-items:center;
 }
