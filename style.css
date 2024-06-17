@@ -87,29 +87,27 @@ position: relative;
 .second-sec-para{
     position: absolute;
     top: 90%;
-    left: 37%;
+    left: 42%;
     color:orangered;
     font:25px bold;
 }
 /*boxes section-start*/
 .boxes{
+
 display: flex;
+justify-content: center;
 gap: 2rem;
 }
 .box{
-    border-radius: 5px solid tomato;
-    background-color: tomato;
-    display: flex;
-    flex-direction: column;
-    flex:1;
+border-radius: 8px;
+
+text-align: center;
+ 
+
 }
-h3{
-    text-align: center;
-}
-.box p {
-    text-align: center;
-}
+
 .box-img{
    width: 300px;
-   align-items:center;
+   border-radius: 8px;
+
 }
